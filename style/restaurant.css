@@ -1,0 +1,38 @@
+#titre {
+    padding: 30px;
+    }
+    
+    #titre h2 {
+        color: #000000;
+        font-family: 'Alumni Sans', sans-serif;
+        font-size: 3em;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
+.image img {
+    height: 600px;
+    width: 493px;
+    
+}
+
+.image {
+    display: grid;
+    align-items: left;
+    justify-content: right;
+}
+
+#texte1, #texte2, #texte3 {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.texte {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 1.6em;
+    text-align: left;
+    margin-top: 50px;
+}

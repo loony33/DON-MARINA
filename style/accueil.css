@@ -1,0 +1,144 @@
+
+main {
+    position: relative;
+    display: grid;
+}
+
+#introduction {
+    background-image:url(facade.png);
+    object-fit: cover;
+    padding-top: 320px;
+    padding-bottom: 190px;
+}
+
+.image img {
+    height: 500px;
+    width: 100%;
+}
+
+.image {
+    display: grid;
+    align-items: left;
+    justify-content: right;
+}
+
+#bienvenue {
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 300px 500px;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.texte {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 1.6em;
+    text-align: left;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Alumni Sans', sans-serif;
+    text-align: center;
+    font-size: 5em;
+}
+
+#introduction h2 {
+    color: #ffffff;
+    font-family: 'Alumni Sans', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 250;
+}
+
+.boutonreserver {
+    padding-top: 280px;
+    text-align: center;
+}
+
+.boutonreserver a {
+    color: #000000;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: 600;
+    background-color: #F4F2EB;
+    padding: 20px;
+}
+
+#titre {
+padding: 50px;
+}
+
+#titre h2 {
+    color: #000000;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 3em;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+hr {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(0, 0, 0);
+    width: 600px;
+}
+
+#contact h2 {
+    color: #000000;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+input[type=text], textarea, input[type=email], input[type=tel]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+button[type=submit][type=submit] {
+    font-family: 'Alumni Sans', sans-serif;
+    background: #000000;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+  
+button[type=submit]:hover {
+    justify-content: center;
+    background-color: #1f1c1c;
+    font-family: 'Alumni Sans', sans-serif;
+  }
+
+  #contact {
+    padding: 30px;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+.formulaire {
+    padding:50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 505px;
+    width: 610px;
+  }
+
+form {
+    background-color:#F4F2EB;
+    padding: 10px 50px 10px 50px;
+}
+
+label{
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 20px;
+}
