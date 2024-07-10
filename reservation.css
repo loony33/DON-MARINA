@@ -1,0 +1,69 @@
+#introduction {
+    background-image:url(pizza7.jpg);
+    object-fit: cover;
+    padding-top: 240px;
+    padding-bottom: 300px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Alumni Sans', sans-serif;
+    text-align: center;
+    font-size: 5em;
+}
+
+#titre {
+    padding: 40px;
+    }
+    
+#titre h2 {
+    color: #000000;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 3em;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 30px;
+    font-family: 'Alumni Sans', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    font-weight: 300;
+}
+
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color: #000000;
+}
+
+form input[type = submit]{
+    color: #000000;
+    background: #7f2121;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type = submit]:hover{
+    opacity: 0.9;
+}
+@media(max-width: 992px){
+    .card-container{
+        grid-template-columns: 100%;
+        width: 100vw;
+    }
+    .card-img{
+        height: 330px;
+    }
+}
